@@ -9,3 +9,14 @@ h3 {
 h3:hover {
   color: blue;
 }
+
+.darktheme {
+  color: whitesmoke;
+  background-color: #383838;
+}
+
+.box {
+  border: solid 1px;
+  background-color: #e5ffe5;
+  color: black;
+}

@@ -28,4 +28,24 @@ $("#animatedwinner").click(function() {
   $("#winner3").css('font-weight','bold');
 });
 
+$("button#dark").click(function() {
+  $("body").addClass("darktheme");
+});
+
+$("button#light").click(function() {
+   $("body").removeClass();
+});
+
+$(".category#comedy").click(function() {
+  $(".category#comedy").addClass("box");
+});
+
+$(".category#drama").click(function() {
+  $(".category#drama").addClass("box");
+});
+
+$(".category#animated").click(function() {
+  $(".category#animated").addClass("box");
+});
+
 });
