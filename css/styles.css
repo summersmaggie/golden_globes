@@ -1,0 +1,11 @@
+.category {
+  display: none;
+}
+
+h3 {
+  cursor: pointer;
+}
+
+h3:hover {
+  color: blue;
+}
